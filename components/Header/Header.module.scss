@@ -1,0 +1,16 @@
+.header__main {
+  height: 10vh;
+  background: #292727;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  a {
+    &:hover {
+      border-bottom: 1px solid #fff;
+      transition: all .9s ease-out;
+    }
+  }
+}
