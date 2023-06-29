@@ -7,10 +7,6 @@ import { getAllPosts } from "@/services/getPosts";
 import Posts from "@/components/Posts/Posts";
 import PostSearch from "@/components/PostSearch/PostSearch";
 
-export const metadata: Metadata = {
-  title: "Blog | Next App 13",
-};
-
 export default function Blog() {
   const [posts, setPosts] = useState<any[]>([]);
   const [loading, setLoading] = useState(true);
