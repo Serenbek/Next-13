@@ -1,6 +1,5 @@
 "use client";
 
-import { Metadata } from "next";
 import scss from "./blog.module.scss";
 import { useEffect, useState } from "react";
 import { getAllPosts } from "@/services/getPosts";
