@@ -9,11 +9,17 @@
 
 .wrapperLayout {
   padding: 0 100px;
-
+  @media (max-width: 912px) {
+    padding: 0;
+  }
+  
   ul {
     display: flex;
     gap: 40px;
     margin: 30px 0;
+    @media (max-width: 576px) {
+      justify-content: center;
+    }
     li {
       list-style: none;
 
