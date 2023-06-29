@@ -9,8 +9,7 @@
 
   a {
     &:hover {
-      border-bottom: 1px solid #fff;
-      transition: all .9s ease-out;
+      text-decoration: underline;
     }
   }
 }
