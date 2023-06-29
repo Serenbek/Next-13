@@ -1,4 +1,5 @@
 import Link from "next/link";
+import scss from "./about.module.scss"
 
 export default function AboutLayout({
   children,
@@ -6,14 +7,14 @@ export default function AboutLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <h1>About us</h1>
+    <div className={scss.wrapperLayout}>
+      <h1 style={{textAlign: "center"}}>About us page</h1>
       <ul>
         <li>
-          <Link href="/about/contacts">Contacts</Link>
+          <Link href="/about/contacts">Go to Contacts</Link>
         </li>
         <li>
-          <Link href="/about/team">Team</Link>
+          <Link href="/about/team">Go to Team</Link>
         </li>
       </ul>
       {children}
