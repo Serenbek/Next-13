@@ -1,15 +1,22 @@
-.header__main {
+.wrapper {
   height: 10vh;
-  background: #292727;
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+  .header__main {
+    height: 10vh;
+    background: #292727;
+    color: #fff;
 
-  a {
-    &:hover {
-      text-decoration: underline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+    position: fixed;
+    width: 100%;
+    z-index: 9;
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
     }
   }
 }
